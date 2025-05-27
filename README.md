@@ -24,7 +24,7 @@ I'm a **Systems Engineer** who loves to turn ideas into code. Whether it's fulls
 ## 📫 Let’s connect!
 
 Feel free to reach out or follow me for more projects and ideas.  
-💼 [LinkedIn]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/emmanuel-bustamante-valbuena-a7088a34b/)) | ▶️ [Youtube Channel](https://yourblog.com) 
+💼 [LinkedIn]([https://www.linkedin.com/in/emmanuel-bustamante-valbuena-a7088a34b/]) | ▶️ [Youtube Channel]([https://www.youtube.com/@Emmanuel_Ok]) 
 ---
 
 > “Code is like humor. When you have to explain it, it’s bad.” – Cory House  
