@@ -15,8 +15,8 @@ export function EducationSection() {
   return (
     <section className="space-y-6">
       <div className="text-center">
-        <h2 className="text-3xl font-bold text-primary mb-4">Education</h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto">
+        <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">Education</h2>
+        <p className="text-muted-foreground max-w-2xl mx-auto px-2 sm:px-0">
           My academic background and ongoing training in software engineering and system design.
         </p>
       </div>

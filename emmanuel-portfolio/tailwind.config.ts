@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
   	extend: {
+		fontSize: {
+			'fluid-lg': 'clamp(1rem, 2vw + 0.5rem, 1.5rem)'
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

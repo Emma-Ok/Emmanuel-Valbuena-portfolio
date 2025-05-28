@@ -10,9 +10,9 @@ export function ContactInfo() {
   ]
 
   return (
-    <div className="space-y-3">
-      <h3 className="text-sm font-semibold text-foreground uppercase tracking-wide">Contact Information</h3>
-      <div className="space-y-2 ">
+    <div className="space-y-2.5 sm:space-y-3">
+      <h3 className="text-xs sm:text-sm font-semibold text-foreground uppercase tracking-wider mb-2">Contact Information</h3>
+      <div className="space-y-1.5 sm:space-y-2">
         {contactData.map((item, index) => (
           <ContactItem key={index} icon={item.icon} label={item.label} value={item.value} />
         ))}

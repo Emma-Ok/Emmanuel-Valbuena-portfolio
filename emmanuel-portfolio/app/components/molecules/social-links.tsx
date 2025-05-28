@@ -10,9 +10,15 @@ export function SocialLinks() {
   ]
 
   return (
-    <div className="flex flex-col space-y-4">
+    <div className="flex flex-col space-y-2 sm:space-y-3">
       {socialLinks.map((social, index) => (
-        <SocialIcon key={index} icon={social.icon} href={social.href} label={social.label} />
+        <SocialIcon
+          key={index}
+          icon={social.icon}
+          href={social.href}
+          label={social.label}
+          iconClassName="w-4 h-4 sm:w-4 sm:h-4 md:w-5 md:h-5"
+        />
       ))}
     </div>
   )

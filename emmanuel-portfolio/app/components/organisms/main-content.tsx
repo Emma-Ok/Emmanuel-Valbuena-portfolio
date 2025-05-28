@@ -7,12 +7,12 @@ import { Footer } from "@/app/components/molecules/footer"
 export function MainContent() {
   return (
     <div className="min-h-screen overflow-y-auto">
-      <div className="max-w-4xl mx-auto p-8 space-y-12">
+      <div className="max-w-4xl mx-auto pr-2 pb-0 space-y-10">
         <ProfileSection />
         <KnowledgeSection />
         <EducationSection />
         <PortfolioSection />
-        <Footer />
+        <Footer/>
       </div>
     </div>
   )
