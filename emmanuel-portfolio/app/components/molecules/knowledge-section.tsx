@@ -6,37 +6,38 @@ export function KnowledgeSection() {
     {
       icon: Code,
       title: "Web Development",
-      description: "Modern web development using frameworks like Astro, React, and TailwindCSS.",
+      description: "Building fast, expressive, and visually engaging websites using React, Astro, and TailwindCSS often for real clients and creative portfolios.",
       color: "bg-accent text-chart-1",
     },
     {
       icon: Cpu,
       title: "Systems Engineering",
-      description: "Strong understanding of operating systems, process management, and low-level concepts.",
+      description: "Applying core systems principles like concurrency, memory management, and chaos engineering to build robust, scalable architectures.",
       color: "bg-accent text-chart-2",
     },
     {
       icon: Terminal,
-      title: "Linux & CLI",
-      description: "Efficient with Linux environments, shell scripting, and system automation tasks.",
+      title: "Python & Teaching",
+      description: "Skilled in Python for academic support. I've led mentoring sessions focused on solving problems with Python, helping others build solid programming foundations.",
       color: "bg-secondary text-secondary-foreground",
     },
+    
     {
       icon: Brain,
       title: "Machine Learning",
-      description: "Focused on practical ML applications such as phishing detection using Python and Scikit-learn.",
+      description: "Practical ML projects focused on real problems such as phishing detection using Python, Scikit-learn, PyTorch, and data visualization.",
       color: "bg-accent text-chart-4",
     },
     {
       icon: FlaskConical,
       title: "Chaos Engineering",
-      description: "Applying chaos principles to test and improve system resilience under failure conditions.",
+      description: "Simulating failure scenarios to explore system resilience as part of academic and operational explorations in backend infrastructure.",
       color: "bg-accent text-chart-3",
     },
     {
       icon: Server,
-      title: "Backend Development",
-      description: "RESTful APIs, data handling, and server-side logic using Python and modern stacks.",
+      title: "Full-Stack & APIs",
+      description: "Designing full-stack applications with RESTful APIs, robust backends in NestJS or FastAPI, and PostgreSQL for data consistency.",
       color: "bg-accent text-chart-5",
     },
   ]
@@ -46,7 +47,7 @@ export function KnowledgeSection() {
       <div className="text-center">
         <h2 className="text-3xl font-bold text-foreground mb-4">My Knowledge</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Areas of expertise I&apos;ve developed through hands-on projects, academic work, and continuous learning.
+          A snapshot of the technical areas I specialize in, driven by real-world challenges, collaborative projects, and continuous experimentation.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

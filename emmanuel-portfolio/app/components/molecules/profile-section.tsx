@@ -1,21 +1,28 @@
 "use client"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import Image from "next/image"
 import { Download, Eye } from "lucide-react"
 
 export function ProfileSection() {
   return (
-    <section className="bg-card rounded-lg shadow-md p-8">
-      <div className="flex items-center gap-8">
-        <Avatar className="w-32 h-32">
-          <AvatarImage src="/placeholder.svg?height=128&width=128" alt="Profile" />
-          <AvatarFallback>EB</AvatarFallback>
-        </Avatar>
-        <div className="flex-1">
-          <h1 className="text-4xl font-bold text-card-foreground mb-2">I&apos;m Emmanuel Bustamante Valbuena</h1>
-          <h2 className="text-2xl text-primary font-semibold mb-4">Systems Engineer & Developer</h2>
-          <p className="text-muted-foreground mb-6 leading-relaxed">
+    <section className="bg-card rounded-lg shadow-md p-2 md:p-6">
+      <div className="flex flex-col md:flex-row items-center gap-2 md:gap-8">
+        <div className="relative w-48 h-64 md:w-56 md:h-72 lg:w-64 lg:h-80 rounded-lg overflow-hidden shadow-xl flex-shrink-0">
+          <Image
+            src="/profilepic.webp"
+            alt="Emmanuel Bustamante Valbuena profile picture"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/5 rounded-lg"></div>
+        </div>
+        <div className="flex-1 text-center md:text-left mt-4 md:mt-0">
+          <h1 className="text-3xl lg:text-4xl font-bold text-card-foreground mb-2">I&apos;m Emmanuel Bustamante Valbuena</h1>
+          <h2 className="text-xl lg:text-2xl text-primary font-semibold mb-4">Systems Engineer & Developer</h2>
+          <p className="text-muted-foreground mb-6 leading-relaxed text-sm md:text-base">
             Passionate about software engineering, I focus on building efficient, scalable, and secure solutions.
             My expertise includes Python, modern web technologies, and systems-level programming. Always eager to learn
             and apply new technologies to solve real-world problems.
@@ -38,7 +45,7 @@ export function ProfileSection() {
                   involving cybersecurity, OS-level experimentation, and data science. I enjoy tackling challenging 
                   problems and writing clean, maintainable code.
                 </p>
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold mb-2 text-card-foreground">Work Philosophy:</h4>
                     <ul className="text-sm text-muted-foreground space-y-1">

@@ -6,7 +6,7 @@ export function ProgrammingSkills() {
     { name: "TypeScript", level: 80 },
     { name: "React", level: 85 },
     { name: "Go", level: 70 },
-    { name: "Scikit-learn, Keras, TensorFlow", level: 75 },
+    { name: "Scikit-learn, Pytorch, TensorFlow", level: 75 },
     { name: "CI/CD", level: 60 },
     { name: "Linux, Bash", level: 70 },
     { name: "SQL, NoSQL", level: 70 },

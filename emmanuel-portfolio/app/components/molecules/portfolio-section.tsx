@@ -4,51 +4,55 @@ export function PortfolioSection() {
   const projects = [
     {
       title: "Phishing Detection System",
-      description: "ML-based system to detect phishing websites using real-world datasets",
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
-      githubUrl: "https://github.com/yourusername/phishing-detector",
+      description: "ML-powered phishing detection tool developed to solve a real-world academic challenge in the Modelos 2 course.",
+      image: "/phishing.webp",
+      technologies: ["Python", "Scikit-learn", "PyTorch", "Seaborn", "LaTeX"],
+      githubUrl: "https://github.com/Emma-Ok/Phishing-Detection-ML",
       liveUrl: "",
       details:
-        "A machine learning project that analyzes website features to classify phishing URLs. It includes preprocessing, model training (Random Forest, SVM), performance evaluation, and detailed visual reporting. Developed using Python libraries and presented with IEEE LaTeX formatting.",
+        "This machine learning project was created as part of the Modelos 2 course to address a real-world cybersecurity problem. It focuses on detecting phishing websites by analyzing their structural and behavioral features. The process included data preprocessing, model training, performance evaluation, and advanced visual reporting. The system was built using Python and libraries such as Scikit-learn and PyTorch, and the final results were documented following the IEEE LaTeX formatting standard.",
     },
+    
     {
-      title: "Chaos Engineering in OS",
-      description: "Experimenting with system failures to test OS-level resilience",
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["Linux", "Bash", "Python", "Docker"],
-      githubUrl: "https://github.com/yourusername/chaos-os",
+      title: "Academic Support: Logic & Representation II",
+      description: "Academic monitor for an undergraduate course focused on logic and data representation using Python.",
+      image: "/academicpython.webp",
+      technologies: ["Python", "Pandas", "NumPy", "Trees", "Graphs", "Dinamic Programming"],
+      githubUrl: "https://github.com/Emma-Ok/MonitoriasLogica2",
       liveUrl: "",
       details:
-        "Final operating systems project focused on simulating failure scenarios to study system behavior and improve fault tolerance. Chaos experiments were automated via scripts and containerized environments. Metrics were collected and analyzed for system recovery validation.",
+        "As an academic monitor, I support students in understanding core concepts of logical reasoning, data structures, and algorithmic thinking. I create and deliver practical tutorials using Python, Pandas, and NumPy, and help students apply theoretical knowledge to real data manipulation and problem-solving tasks.",
     },
     {
-      title: "Personal Portfolio Website",
-      description: "Clean, fast and responsive developer portfolio built with Astro",
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["Astro", "TailwindCSS", "TypeScript"],
-      githubUrl: "https://github.com/yourusername/portfolio",
-      liveUrl: "https://your-portfolio.vercel.app",
-      details:
-        "This portfolio site was created to showcase my projects, skills and academic work. Built using Astro for performance and TailwindCSS for styling, it includes interactive components and responsive design with a professional touch.",
+      title: "Luy's Artistic Portfolio",
+        description: "A visually striking portfolio site crafted for Luy, a Medellín based audiovisual director, emphasizing his artistic identity.",
+        image: "/luy.webp",
+        technologies: ["Astro", "TailwindCSS", "TypeScript", "Vercel"],
+        githubUrl: "https://github.com/Emma-Ok/TripboyflameLanding",
+        liveUrl: "https://tripboyflame-landing.vercel.app/",
+        details:
+          "This portfolio site was developed for Luy, an audiovisual director from Medellín, to visually express his creative journey and professional projects. Beyond just listing work, the design and structure reflect his bold, experimental style. Built with Astro for optimal performance and TailwindCSS for expressive, responsive UI, the site blends speed with visual storytelling to represent his unique artistic voice.",
     },
     {
-      title: "CLI Process Monitor",
-      description: "A Linux terminal tool to visualize and manage system processes",
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["Python", "psutil", "Rich", "Linux"],
-      githubUrl: "https://github.com/yourusername/process-monitor-cli",
-      liveUrl: "",
+      title: "TripsBoysGang E-commerce Platform",
+      description: "A full-stack e-commerce web app created to promote and sell products from the local brand TripsBoysGang.",
+      image: "/tbg.webp",
+      technologies: ["Next.js", "React", "TailwindCSS", "NestJS", "PostgreSQL", "Docker", "AWS"],
+      githubUrl: "https://github.com/Emma-Ok/TBG-Frontend",
+      liveUrl: "https://tripboysgang.vercel.app/",
       details:
-        "A command-line interface tool for monitoring active system processes in Linux. Features include resource usage stats, filtering, and live updates. Built with Python and the Rich library to provide a polished and usable terminal UI.",
-    },
+        "This project is a complete e-commerce solution developed for TripsBoysGang, a local streetwear brand. It includes product listing, shopping cart, user authentication, order management, and admin dashboard. The frontend is built with Next.js and TailwindCSS, while the backend uses NestJS, PostgreSQL, Docker, and AWS to ensure scalability, performance, and maintainability.",
+    }
+    
+    
+    
   ]
 
   return (
     <section className="space-y-6">
       <div className="text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Portfolio</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
+        <h2 className="text-3xl font-bold text-primary mb-4">Portfolio</h2>
+        <p className="text-muted-foreground max-w-2xl mx-auto">
           A curated selection of my most relevant projects, highlighting technical expertise, problem-solving, and system-level thinking.
         </p>
       </div>
