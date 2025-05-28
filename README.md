@@ -1,7 +1,7 @@
 # 👋 Hi there! I'm Emmanuel Bustamante Valbuena
 
 Welcome to my GitHub portfolio!  
-I'm a **Systems Engineer** who loves to turn ideas into code. Whether it's fullstack systems, automation scripts, or experimenting with machine learning — I’m always building, learning, and sharing. 🚀
+I'm a **Systems Engineer** who loves to turn ideas into code. Whether it's fullstack systems, automation scripts, or experimenting with machine learning I’m always building, learning, and sharing. 🚀
 
 ## 🔧 Tech Stack & Interests
 
