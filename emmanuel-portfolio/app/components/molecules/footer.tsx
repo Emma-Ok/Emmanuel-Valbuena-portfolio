@@ -1,4 +1,4 @@
-import { Heart } from "lucide-react"
+
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
         <span className="text-muted-foreground font-semibold">Let&apos;s work together!</span>
        
         <span className="flex text-muted-foreground items-center gap-2">
-          Made with <Heart className="w-4 h-4 text-muted-foreground fill-destructive" /> by Emmanuel Bustamante Valbuena ©
+          Made by Emmanuel Bustamante Valbuena ©
         </span>
       </div>
     </footer>
