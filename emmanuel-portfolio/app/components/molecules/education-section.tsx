@@ -8,7 +8,7 @@ export function EducationSection() {
       period: "2019 – Present",
       status: "Undergraduate Student",
       description:
-        "Comprehensive training in software development, algorithms, data structures, and system architecture. Final project focused on scalable web applications and system reliability using chaos engineering.",
+        "Ongoing undergraduate studies in software development, algorithms, data structures, and system architecture. Actively involved as an academic tutor for Logic and Representation II, supporting peers through practical problem-solving using Python."
     },
   ]
 

@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import Image from "next/image"
-import { Download, Eye } from "lucide-react"
+import { Eye } from "lucide-react"
 
 export function ProfileSection() {
   return (
@@ -39,11 +39,11 @@ export function ProfileSection() {
                 <DialogTitle>About Emmanuel Bustamante Valbuena</DialogTitle>
               </DialogHeader>
               <div className="space-y-4">
+              <p className="text-muted-foreground">
+                    Hello! I&apos;m Emmanuel a curious, empathetic, and cheerful person who loves cats and anime (Hunter x Hunter is my absolute favorite). Beyond the code, I enjoy connecting with people, sharing knowledge, and always staying open to learning something new every day.
+                </p>
                 <p className="text-muted-foreground">
-                  Hello! I&apos;m a Systems Engineer with strong interests in backend development, Linux environments,
-                  and applied machine learning. Over the last few years, I&apos;ve worked on academic and personal projects 
-                  involving cybersecurity, OS-level experimentation, and data science. I enjoy tackling challenging 
-                  problems and writing clean, maintainable code.
+                  Academically, I&apos;m a Systems Engineering undergraduate passionate about backend development, Python languaje, and applied machine learning. My journey includes projects focused on cybersecurity, chaos engineering, machine learning pipelines, and fullstack web development. I take pride in writing clean, maintainable code and solving real-world problems through thoughtful engineering and collaboration.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
@@ -65,10 +65,6 @@ export function ProfileSection() {
                     </ul>
                   </div>
                 </div>
-                <Button className="w-full" variant="outline">
-                  <Download className="w-4 h-4 mr-2" />
-                  Download CV (PDF)
-                </Button>
               </div>
             </DialogContent>
           </Dialog>
