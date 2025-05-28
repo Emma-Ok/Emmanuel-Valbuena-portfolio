@@ -8,7 +8,14 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Emmanuel Bustamante - Full-Stack Developer & Systems Engineer",
   description:
-    "Interactive portfolio of Emmanuel Bustamante Valbuena, full-stack developer and systems engineer specialized in modern web development, Python, and system-level programming.",
+    "Interactive portfolio of Emmanuel Bustamante Valbuena, full-stack developer and systems engineer specialized in modern web technologies, Python, and system-level programming.",
+  icons: [
+    {
+      url: "/icons8-dibujos-animados-japoneses-32.png",
+      type: "image/png",
+      sizes: "32x32",
+    },
+  ],
 }
 
 export default function RootLayout({
