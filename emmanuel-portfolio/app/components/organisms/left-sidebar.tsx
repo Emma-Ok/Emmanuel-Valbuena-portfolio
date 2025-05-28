@@ -16,7 +16,7 @@ export function LeftSidebar({ closeMobileMenu, isMobileView }: LeftSidebarProps)
     <div 
       className={`
         h-full overflow-y-auto space-y-6 relative 
-        pb-6 pr-6 pl-6 
+        pb-6 pr-6 pl-2 
         ${isMobileView ? 'pt-16' : 'pt-6'} 
       `}
     >

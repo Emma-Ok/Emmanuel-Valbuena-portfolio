@@ -49,8 +49,8 @@ export function CVLayout() {
         id="left-sidebar"
         className={
           `
-          fixed top-4 left-4 z-20 h-[90vh] bg-sidebar shadow-lg 
-          w-72 md:w-80 rounded-xl p-4 overflow-y-auto 
+          fixed top-4 left-2 z-20 h-[90vh] bg-sidebar shadow-lg 
+          w-64 md:w-85 rounded-xl p-4 overflow-y-auto 
           transition-transform duration-300 ease-in-out 
           ${isMobileMenuOpen ? "translate-x-0 shadow-xl" : "-translate-x-full md:translate-x-0"}
         `
@@ -73,7 +73,7 @@ export function CVLayout() {
       </div>
 
       {/* Right Sidebar - Floating and Responsive */}
-      <div className="fixed bottom-2 right-2 z-30 w-10 sm:w-12 md:w-14 h-auto bg-sidebar rounded-xl shadow-lg p-2 flex flex-col items-center space-y-2">
+      <div className="fixed bottom-100 right-2 z-30 w-10 sm:w-12 md:w-14 h-auto bg-sidebar rounded-xl shadow-lg p-2 flex flex-col items-center space-y-2">
         <RightSidebar />
       </div>
     </div>
